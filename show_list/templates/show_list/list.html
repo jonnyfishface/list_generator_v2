@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 List Group</title>
+{% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="{% static 'show_list/home.css' %}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+    .bs-example{
+        margin: 20px;        
+    }
+</style>
+</head>
+<body>
+	<h1>Here is your bespoke list of things to take today:</h1>
+<div class="bs-example">    
+    <ul class="list-group">
+        <li class="list-group-item">Pictures</li>
+        <li class="list-group-item">Documents</li>        
+        <li class="list-group-item">Music</li>
+        <li class="list-group-item">Videos</li>
+    </ul>
+</div>
+<div style="text-align: right"><img src="{% static 'generate_list/logo.jpg' %}" width="150" height="65.25" /></div>
+</body>
+</html>                            
